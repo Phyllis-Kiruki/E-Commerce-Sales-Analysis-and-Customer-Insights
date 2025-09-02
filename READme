@@ -1,0 +1,70 @@
+# E-Commerce Sales Analysis and Customer Insights
+
+This Jupyter Notebook provides a comprehensive analysis of an e-commerce dataset, focusing on sales trends, customer segmentation, and churn prediction using machine learning models.
+
+## Features
+
+- **Data Cleaning:** Handles missing values and prepares the dataset for analysis.
+
+- **Exploratory Data Analysis (EDA):** 
+
+    - Identifies top-selling products.
+
+    - Analyzes revenue by country.
+
+    - Visualizes sales trends over time.
+
+    - **Customer Segmentation:** 
+
+    - Performs RFM (Recency, Frequency, Monetary) analysis to segment customers.
+
+- **Churn Prediction:** 
+
+    - Defines churn based on recency.
+
+    - Trains and evaluates Logistic Regression and Random Forest models to predict customer churn.
+
+    - Compares model performance using accuracy, classification report, confusion matrix, and ROC curves.
+
+    - Analyzes feature importance for churn prediction.
+
+- **Visualization:** 
+
+    - Plots revenue, customer value distributions, and model evaluation metrics.
+- **Export:** 
+    - Saves cleaned data and RFM segments to CSV files.
+- **Recommendations:** 
+    - Provides actionable business insights based on analysis.
+
+
+## Requirements
+
+- Python 3.x
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+
+## Usage
+
+1. **Clone the repository or download the notebook.**
+2. **Update the data path** in the notebook to point to your local CSV file.
+3. **Run the notebook** cell by cell to perform the analysis and generate insights.
+
+## Files
+
+- `data.csv`: Raw e-commerce transaction data (not included, provide your own).
+- `cleaned_ecommerce_data.csv`: Cleaned dataset after preprocessing.
+- `rfm_segments.csv`: RFM analysis results with churn labels.
+- `E-Commerce_Sales_Analysis.ipynb`: Main Jupyter Notebook with all analysis steps.
+
+## Key Insights
+
+- Recency is the most important predictor of customer churn.
+- Top countries and products can be targeted for marketing and inventory optimization.
+- Machine learning models can proactively identify customers at risk of churning.
+
+## License
+
+This project is for educational and analytical purposes.
