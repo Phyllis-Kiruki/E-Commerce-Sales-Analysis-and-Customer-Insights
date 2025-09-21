@@ -1,12 +1,12 @@
-# E-Commerce Sales Analysis and Customer Insights
+ E-Commerce Sales Analysis and Customer Insights
 
 This Jupyter Notebook provides a comprehensive analysis of an e-commerce dataset, focusing on sales trends, customer segmentation, and churn prediction using machine learning models.
 
-## Features
+Features
 
-- **Data Cleaning:** Handles missing values and prepares the dataset for analysis.
+- Data Cleaning: Handles missing values and prepares the dataset for analysis.
 
-- **Exploratory Data Analysis (EDA):** 
+- Exploratory Data Analysis (EDA):
 
     - Identifies top-selling products.
 
@@ -14,11 +14,11 @@ This Jupyter Notebook provides a comprehensive analysis of an e-commerce dataset
 
     - Visualizes sales trends over time.
 
-    - **Customer Segmentation:** 
+    - **Customer Segmentation: 
 
     - Performs RFM (Recency, Frequency, Monetary) analysis to segment customers.
 
-- **Churn Prediction:** 
+- Churn Prediction:
 
     - Defines churn based on recency.
 
@@ -28,16 +28,16 @@ This Jupyter Notebook provides a comprehensive analysis of an e-commerce dataset
 
     - Analyzes feature importance for churn prediction.
 
-- **Visualization:** 
+- Visualization:
 
     - Plots revenue, customer value distributions, and model evaluation metrics.
-- **Export:** 
+- Export:
     - Saves cleaned data and RFM segments to CSV files.
-- **Recommendations:** 
+- Recommendations:
     - Provides actionable business insights based on analysis.
 
 
-## Requirements
+ Requirements
 
 - Python 3.x
 - pandas
@@ -46,25 +46,25 @@ This Jupyter Notebook provides a comprehensive analysis of an e-commerce dataset
 - seaborn
 - scikit-learn
 
-## Usage
+ Usage
 
-1. **Clone the repository or download the notebook.**
-2. **Update the data path** in the notebook to point to your local CSV file.
-3. **Run the notebook** cell by cell to perform the analysis and generate insights.
+1. Clone the repository or download the notebook.
+2. Update the data path in the notebook to point to your local CSV file.
+3. Run the notebook cell by cell to perform the analysis and generate insights.
 
-## Files
+Files         
+data.csv: Raw e-commerce transaction data (not included, provide your own).
+cleaned_ecommerce_data.csv: Cleaned dataset after preprocessing.
+rfm_segments.csv: RFM analysis results with churn labels.
+E-Commerce_Sales_Analysis.ipynb : Main Jupyter Notebook with all analysis steps.
 
-- `data.csv`: Raw e-commerce transaction data (not included, provide your own).
-- `cleaned_ecommerce_data.csv`: Cleaned dataset after preprocessing.
-- `rfm_segments.csv`: RFM analysis results with churn labels.
-- `E-Commerce_Sales_Analysis.ipynb`: Main Jupyter Notebook with all analysis steps.
-
-## Key Insights
+Key Insights
 
 - Recency is the most important predictor of customer churn.
 - Top countries and products can be targeted for marketing and inventory optimization.
 - Machine learning models can proactively identify customers at risk of churning.
 
-## License
+License
+
 
 This project is for educational and analytical purposes.
